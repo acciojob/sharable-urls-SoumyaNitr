@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="UTF-8">
+	  <title>URL Query Generator</title>
+	</head>
   <body>
     <script type="text/javascript" src="./script.js">
 </script>
+	   <h3 id="url">https://localhost:8080/</h3>
+
+  <form onsubmit="handleSubmit(event)">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" />
+
+    <label for="year">Graduation year:</label>
+    <input type="number" id="year" name="year" />
+
+    <button type="submit" id="button">Submit</button>
+  </form>
   </body>
 
 </html>

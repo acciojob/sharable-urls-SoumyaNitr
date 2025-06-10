@@ -1,1 +1,15 @@
-
+ body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    input {
+      margin-bottom: 10px;
+      display: block;
+      padding: 5px;
+    }
+    #button {
+      padding: 5px 10px;
+    }
+    #url {
+      margin-bottom: 20px;
+    }
